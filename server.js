@@ -83,7 +83,7 @@ class Player {
   }
 }
 
-const DEPLOY = 0;
+const DEPLOY = 1;
 
 const express = require("express");
 const app = express();
