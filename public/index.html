@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #canvas {
+        border: 1px solid black;
+        display: absolute;
+      }
+    </style>
+    <title>my game</title>
+  </head>
+  <body>
+    <div>
+      <canvas id="canvas" tabindex="0" width="640" height="480"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.3/socket.io.js"></script>
+
+    <script src="player.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
